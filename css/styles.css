@@ -45,6 +45,11 @@ img {
 [class$="__heading"] {
     text-align: center;
 }
+[class$="__image"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mt-5 {
     margin-top: 5rem;
 }
@@ -312,6 +317,7 @@ img {
     .commissions__content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
         align-items: flex-end;
         gap: 5rem;
         position: relative;
